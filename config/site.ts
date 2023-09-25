@@ -27,24 +27,12 @@ export const siteConfig = {
 	],
 	navMenuItems: [
 		{
-			label: "Profile",
-			href: "/profile",
-		},
-		{
-			label: "Dashboard",
-			href: "/dashboard",
+			label: "Home",
+			href: "/homepage",
 		},
 		{
 			label: "Projects",
 			href: "/projects",
-		},
-		{
-			label: "Team",
-			href: "/team",
-		},
-		{
-			label: "Calendar",
-			href: "/calendar",
 		},
 		{
 			label: "Settings",
