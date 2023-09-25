@@ -20,7 +20,7 @@ import { ThemeSwitch } from "@/components/theme-switch";
 import {
 	TwitterIcon,
 	GithubIcon,
-	DiscordIcon,
+	LinkedInIcon,
 	SearchIcon,
 } from "@/components/icons";
 
@@ -51,8 +51,8 @@ export const Navbar = () => {
                 <NavbarMenuToggle className="lg:hidden" />
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<NextLink className="flex justify-center items-center sm:justify-start" href="/">
-						<Logo />
-						<p className="font-bold text-inherit text-lg ml-[-4px]">DevDynasty</p>
+						<Logo className="mt-[2px]" />
+						<p className="font-bold text-lg">DevDynasty</p>
 					</NextLink>
 				</NavbarBrand>
 				<ul className="hidden lg:flex gap-4 justify-start ml-2">
@@ -73,28 +73,27 @@ export const Navbar = () => {
 				</ul>
 			</NavbarContent>
 
-			<NavbarContent
+			{/* <NavbarContent
 				className="hidden sm:flex basis-1/5 sm:basis-full gap-4"
 				justify="end"
 			>
 				<NavbarItem className="hidden sm:flex gap-2">
-					<Link isExternal href={siteConfig.links.twitter} aria-label="Twitter">
-						<TwitterIcon className="text-default-500" />
-					</Link>
-					<Link isExternal href={siteConfig.links.discord} aria-label="Discord">
-						<DiscordIcon className="text-default-500" />
+					<Link isExternal href={siteConfig.links.linkedIn} aria-label="LinkedIn">
+						<LinkedInIcon className="text-default-500 rounded-sm" />
 					</Link>
 					<Link isExternal href={siteConfig.links.github} aria-label="Github">
 						<GithubIcon className="text-default-500" />
 					</Link>
+                    <Link isExternal href={siteConfig.links.twitter} aria-label="Twitter">
+						<TwitterIcon className="text-default-500" />
+					</Link>
 				</NavbarItem>
-                <ThemeSwitch />
-				<NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
-                <Button size="sm" color="primary" >Login</Button>
-			</NavbarContent>
+			</NavbarContent> */}
 
-			<NavbarContent className="sm:hidden basis-1" justify="end">
+			<NavbarContent className="basis-1" justify="end">
                 <ThemeSwitch />
+                <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
+                <Button size="sm" color="primary" >Login / Signup</Button>
 			</NavbarContent>
 
 			<NavbarMenu>

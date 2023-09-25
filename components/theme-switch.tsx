@@ -32,7 +32,7 @@ export const ThemeSwitch: FC = ({
             startContent={<SunFilledIcon size={15}/>}
             endContent={<MoonFilledIcon size={15}/>}
             onChange={onChange}
-            className="mr-[-0.5rem]"
+            className="mr-[-0.5rem] hidden sm:flex"
         />
 	);
 };
