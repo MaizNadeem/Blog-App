@@ -1,0 +1,18 @@
+.clamp-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+    .clamp-text {
+        -webkit-line-clamp: 4;
+    }
+}
+
+@media (max-width: 480px) {
+    .clamp-text {
+        -webkit-line-clamp: 3;
+    }
+}
