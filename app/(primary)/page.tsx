@@ -8,8 +8,8 @@ import { Category } from "@/components/category";
 import { Recent } from "@/components/recent";
 import { Popular } from "@/components/popular";
 
-import { categories } from "../config/categories";
-import { recentPosts } from "../config/recents"
+import { categories } from "../../config/categories";
+import { recentPosts } from "../../config/recents"
 
 export default function Home() {
 	return (
