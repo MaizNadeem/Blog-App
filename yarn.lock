@@ -326,6 +326,21 @@
     "@react-aria/utils" "^3.20.0"
     "@react-types/shared" "^3.20.0"
 
+"@nextui-org/chip@^2.0.21":
+  version "2.0.21"
+  resolved "https://registry.yarnpkg.com/@nextui-org/chip/-/chip-2.0.21.tgz#640231bf73797edb19d62958a57a5edb70ea15e8"
+  integrity sha512-z5akLSpElF/j0b13hCywkRGWbI+9PEgawYMktLUnnokXRoUH7XOaq3XoP4Fa5rzBt4ajVButtXwxCsXc3izspQ==
+  dependencies:
+    "@nextui-org/react-utils" "2.0.9"
+    "@nextui-org/shared-icons" "2.0.4"
+    "@nextui-org/shared-utils" "2.0.3"
+    "@nextui-org/system" "2.0.10"
+    "@nextui-org/theme" "2.1.9"
+    "@react-aria/focus" "^3.14.1"
+    "@react-aria/interactions" "^3.18.0"
+    "@react-aria/utils" "^3.20.0"
+    "@react-types/checkbox" "^3.5.1"
+
 "@nextui-org/code@2.0.16":
   version "2.0.16"
   resolved "https://registry.yarnpkg.com/@nextui-org/code/-/code-2.0.16.tgz#f8700fe1916fb6ce28ca924bf7ba52fa5f5ce607"
@@ -475,6 +490,11 @@
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@nextui-org/shared-icons/-/shared-icons-2.0.3.tgz#7d0ac9ce21af2b3a2dd70651f7b362c237cfdde1"
   integrity sha512-2ODlzPWW+iYM7Uf7XDkz7GlJ+dzsFo6cBHH9hbbZEOx2v7/wB8x3VvrZcQ4SASewSb18a/wzxP8MJFnIUCOCrQ==
+
+"@nextui-org/shared-icons@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@nextui-org/shared-icons/-/shared-icons-2.0.4.tgz#f5183c5da08abbb1025c95d6926975c44361e743"
+  integrity sha512-I0gzreq1E3ji+OSTtsOYBnbdLboHoCAzPa+r//Qkf16I2gq6xxjjkfeNXFdFJjouRnPCLtR5eihlxt/ozWK8oA==
 
 "@nextui-org/shared-utils@2.0.2":
   version "2.0.2"

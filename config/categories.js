@@ -25,8 +25,4 @@ export const categories = [
         name: "Web Dev",
         icon: culture,
     },
-    {
-        name: "Web Dev",
-        icon: culture,
-    },
 ]

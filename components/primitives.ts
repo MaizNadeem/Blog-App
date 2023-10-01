@@ -66,7 +66,7 @@ export const heading1 = tv({
 		},
 		size: {
 			sm: "text-3xl lg:text-4xl",
-			md: "text-[2.3rem] lg:text-5xl leading-9",
+			md: "text-[1.7rem] lg:text-5xl leading-9",
 			lg: "text-4xl lg:text-6xl",
 		},
 		fullWidth: {
@@ -103,3 +103,34 @@ export const heading2 = tv({
         fullWidth: true
     }
 })
+
+export const recent1 = tv({
+	base: "tracking-tight font-semibold line-clamp-1",
+	variants: {
+		size: {
+			sm: "text-xl lg:text-2xl",
+			md: "text-[1.3rem] lg:text-2xl leading-9",
+			lg: "text-2xl lg:text-4xl",
+		},
+		fullWidth: {
+			true: "w-full block",
+		},
+	},
+	defaultVariants: {
+		size: "md",
+	},
+});
+
+export const popular1 = tv({
+	base: "line-clamp-1",
+	variants: {
+		size: {
+			sm: "text-xl lg:text-2xl",
+			md: "text-[1.3rem] lg:text-xl",
+			lg: "text-2xl lg:text-4xl",
+		},
+	},
+	defaultVariants: {
+		size: "md",
+	},
+});

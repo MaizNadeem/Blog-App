@@ -18,9 +18,6 @@ import clsx from "clsx";
 
 import { ThemeSwitch } from "@/components/theme-switch";
 import {
-	TwitterIcon,
-	GithubIcon,
-	LinkedInIcon,
 	SearchIcon,
 } from "@/components/icons";
 
@@ -46,7 +43,7 @@ export const Navbar = () => {
 	);
 
 	return (
-		<NextUINavbar maxWidth="xl" position="sticky">
+		<NextUINavbar shouldHideOnScroll maxWidth="xl" position="sticky">
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
                 <NavbarMenuToggle className="lg:hidden" />
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
@@ -72,23 +69,6 @@ export const Navbar = () => {
 					))}
 				</ul>
 			</NavbarContent>
-
-			{/* <NavbarContent
-				className="hidden sm:flex basis-1/5 sm:basis-full gap-4"
-				justify="end"
-			>
-				<NavbarItem className="hidden sm:flex gap-2">
-					<Link isExternal href={siteConfig.links.linkedIn} aria-label="LinkedIn">
-						<LinkedInIcon className="text-default-500 rounded-sm" />
-					</Link>
-					<Link isExternal href={siteConfig.links.github} aria-label="Github">
-						<GithubIcon className="text-default-500" />
-					</Link>
-                    <Link isExternal href={siteConfig.links.twitter} aria-label="Twitter">
-						<TwitterIcon className="text-default-500" />
-					</Link>
-				</NavbarItem>
-			</NavbarContent> */}
 
 			<NavbarContent className="basis-1" justify="end">
                 <ThemeSwitch />
