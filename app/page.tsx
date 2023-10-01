@@ -17,7 +17,7 @@ export default function Home() {
             <section className="flex flex-col items-center justify-center gap-4 py-4 md:py-6 mt-6">
                 <div className="inline-block text-center justify-center">
                     <h1 className={title()}>Hey there,&nbsp;</h1>
-                    <h1 className={title({ color: "yellow" })}>I'm Maiz</h1>
+                    <h1 className={title({ color: "yellow" })}>I&apos;m Maiz</h1>
                     <br />
                     <h1 className={title()}>
                         Discover my stories and creative ideas.
@@ -58,7 +58,7 @@ export default function Home() {
                     </Link>
                 </div>
                 <div className="lg:w-1/3 inline-block text-center justify-start items-start">
-                    <p className="text-left">What's Hot</p>
+                    <p className="text-left">What&apos;s Hot</p>
                     <p className={`${heading2()} mt-0`}>Trending Stories 🔥</p>
                     <div className="flex flex-col py-4 justify-start gap-12">
                         {
@@ -67,7 +67,7 @@ export default function Home() {
                             ))
                         }
                     </div>
-                    <p className="text-left mt-8">What's Hot</p>
+                    <p className="text-left mt-8">What&apos;s Hot</p>
                     <p className={`${heading2()} mt-0`}>Trending Stories 🔥</p>
                     <div className="flex flex-col py-4 justify-start gap-12">
                         {
