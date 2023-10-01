@@ -73,7 +73,7 @@ export const Navbar = () => {
 			<NavbarContent className="basis-1" justify="end">
                 <ThemeSwitch />
                 <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
-                <Button size="sm" color="primary" >Login / Signup</Button>
+                <Link href="/login"><Button size="sm" color="primary" >Login / Signup</Button></Link>
 			</NavbarContent>
 
 			<NavbarMenu>
